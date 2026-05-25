@@ -23,7 +23,7 @@ showStack : (n : Nat ** Stack n) -> String
 showStack (0 ** Empty) = "(пусто)"
 showStack (_ ** s)     =
   let items = map showNum (reverse (toList s))
-  in joinBy "  " items ++ "  ←"
+  in joinBy "  " items
 
 
 needsN : Nat -> String
