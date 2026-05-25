@@ -1,0 +1,12 @@
+package rpn-calc
+version = 0.1.0
+
+depends = base
+
+modules = Stack
+        , Env
+        , Parser
+
+main = Main
+executable = "rpn-calc"
+sourcedir = "src"

@@ -1,0 +1,4 @@
+[custom.all.rpn-calc]
+type = "local"
+path = "."
+ipkg = "rpn-calc.ipkg"
